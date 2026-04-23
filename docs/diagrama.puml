@@ -1,0 +1,23 @@
+@startuml
+
+interface Pagamento {
+    + getValor()
+    + getDescricao()
+}
+
+class PagamentoBase
+abstract class PagamentoDecorator
+class DescontoDecorator
+class TaxaDecorator
+class CashbackDecorator
+
+Pagamento <|.. PagamentoBase
+Pagamento <|.. PagamentoDecorator
+
+PagamentoDecorator <|-- DescontoDecorator
+PagamentoDecorator <|-- TaxaDecorator
+PagamentoDecorator <|-- CashbackDecorator
+
+PagamentoDecorator *-- Pagamento
+
+@enduml
