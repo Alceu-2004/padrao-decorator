@@ -6,9 +6,7 @@ Projeto desenvolvido para demonstrar a aplicação do padrão de projeto **Decor
 
 ## 📊 Diagrama UML
 
-![Diagrama UML](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBCoKnELT2rKt3AJIv9B2efpStXSip9J4bLgEPIKc1oICrB0Ge20000)
-
-[Ver código do diagrama](docs/diagrama.puml)
+![Diagrama UML](docs/diagrama-uml.png)
 
 ---
 
